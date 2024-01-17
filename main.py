@@ -31,3 +31,11 @@ def getBlankBoard():
     for space in ALL_SPACES:
         board[space] = BLANK
     return board
+
+def getBoardStr(board):
+    return '''
+        {}|{}|{} 1  2 3
+        -+-+-
+        {}|{}|{} 4 5 6
+        -+-+-
+        {}|{}|{} 7 8 9 '''.format(board['1'], board['2'], board)
