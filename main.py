@@ -16,4 +16,7 @@ def main():
         updateBoard(gameBoard, move, currentPlayer)
 
         if isWinner(gameBoard, currentPlayer):
-            
+            print(getBoardStr(gameBoard))
+            print(currentPlayer + ' has won the game!')
+            break
+                    
