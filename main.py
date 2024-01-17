@@ -14,4 +14,6 @@ def main():
             print('What is {}\'s move? (1-9)'.format(currentPlayer))
             move = input('> ')
         updateBoard(gameBoard, move, currentPlayer)
-        
+
+        if isWinner(gameBoard, currentPlayer):
+            
