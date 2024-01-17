@@ -64,4 +64,6 @@ def isBoardFull(board):
 
 def updateBoard(board, space, mark):
     board[space] = mark 
-    
+
+if __name__ == '__main__':
+    main()
