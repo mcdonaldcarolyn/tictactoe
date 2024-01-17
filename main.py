@@ -55,3 +55,6 @@ def isWinner(board, player):
             (b['3'] == b['6'] == b['9'] == p) or
             (b['3'] == b['5'] == b['7'] == p) or
             (b['1'] == b['5'] == b['9'] == p) 
+
+def isBoardFull(board):
+    
