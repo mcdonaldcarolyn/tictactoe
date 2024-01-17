@@ -23,4 +23,7 @@ def main():
             print(getBoardStr(gameBoard))
             print('the game is a tie') 
             break
-        currentPlayer, nextPlayer = nextPlayer, currentPlayer           
+        currentPlayer, nextPlayer = nextPlayer, currentPlayer  
+    print('THanks for playing!')
+
+         
