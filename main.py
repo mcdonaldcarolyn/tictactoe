@@ -19,4 +19,6 @@ def main():
             print(getBoardStr(gameBoard))
             print(currentPlayer + ' has won the game!')
             break
-                    
+        elif isBoardFull(gameBoard):
+            print(getBoardStr(gameBoard))
+            print('the game is a tie')            
