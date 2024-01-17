@@ -26,4 +26,8 @@ def main():
         currentPlayer, nextPlayer = nextPlayer, currentPlayer  
     print('THanks for playing!')
 
-         
+def getBlankBoard():
+    board = {}
+    for space in ALL_SPACES:
+        board[space] = BLANK
+    return board
