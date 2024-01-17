@@ -57,4 +57,11 @@ def isWinner(board, player):
             (b['1'] == b['5'] == b['9'] == p) 
 
 def isBoardFull(board):
+    for space in ALL_SPACES:
+        if board[space] == BLANK:
+            return FALSE
+    return True
+
+def updateBoard(board, space, mark):
+    board[space] = mark 
     
