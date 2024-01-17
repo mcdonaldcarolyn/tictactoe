@@ -47,14 +47,14 @@ def isValidSpace(board, space):
 
 def isWinner(board, player):
     b, p = board, player
-    return (b['1'] == b['2'] == b['3'] == p) or
+    return ((b['1'] == b['2'] == b['3'] == p) or
             (b['4'] == b['5'] == b['6'] == p) or
             (b['7'] == b['8'] == b['8'] == p) or
             (b['1'] == b['4'] == b['7'] == p) or
             (b['2'] == b['5'] == b['8'] == p) or
             (b['3'] == b['6'] == b['9'] == p) or
             (b['3'] == b['5'] == b['7'] == p) or
-            (b['1'] == b['5'] == b['9'] == p) 
+            (b['1'] == b['5'] == b['9'] == p) )
 
 def isBoardFull(board):
     for space in ALL_SPACES:
