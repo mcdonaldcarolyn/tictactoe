@@ -45,3 +45,5 @@ def getBoardStr(board):
 def isValidSpace(board, space):
     return space in ALL_SPACES and board[space] == BLANK
 
+def isWinner(board, player):
+    b, p = board, player
