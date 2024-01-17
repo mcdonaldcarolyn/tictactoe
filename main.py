@@ -21,4 +21,6 @@ def main():
             break
         elif isBoardFull(gameBoard):
             print(getBoardStr(gameBoard))
-            print('the game is a tie')            
+            print('the game is a tie') 
+            break
+        currentPlayer, nextPlayer = nextPlayer, currentPlayer           
